@@ -1,0 +1,65 @@
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>CR Login</title>
+
+<link rel="stylesheet" type="text/css" href="reg.css">
+
+<script>
+
+
+function validate()
+
+{
+
+if(document.forms.f2.roll1.value=="")
+alert("enter name its madatory");
+
+
+if(document.forms.f2.pass1.value.length<6)
+
+alert("password shuld be more than 6 characters");
+
+
+ if(!document.forms.f2.checkbox.checked)
+{
+    alert('You must be sure before proceeding');
+    return false;
+}
+
+
+}
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="nav">
+
+ Login Form<br>
+
+<form name="f2">
+
+<input type ="text" placeholder="Unique ID" name="roll1"  onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;"><br>
+
+
+<input type ="password" placeholder="Enter provided key" name="pass1"><br>
+
+
+<input type ="checkbox" name="checkbox"> Are u sure? <br>
+
+<input type ="button" value ="Login" name="log" onclick="validate()">
+
+
+ <input type="reset" value="Reset">
+</div> 
+</body>
+
+</head>
+
+</html>

@@ -1,0 +1,85 @@
+package com.deep.model;
+
+import java.util.Map;
+
+import org.apache.struts2.dispatcher.SessionMap;
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.deep.dao.UserDao;
+
+public class User implements SessionAware{
+private String name;
+private String mobile;
+private String address;
+private SessionMap<String, Object> map;
+public SessionMap<String, Object> getMap() {
+	return map;
+}
+public void setMap(SessionMap<String, Object> map) {
+	this.map = map;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getMobile() {
+	return mobile;
+}
+public void setMobile(String mobile) {
+	this.mobile = mobile;
+}
+public String getAddress() {
+	return address;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+
+public String register(){
+	UserDao ud=new UserDao();
+	int i=ud.insert(this);
+	if(i>0){
+		return "success";
+	}else{
+		return "fail";
+	}
+
+}
+public String login(){
+	UserDao ud=new UserDao();
+	User u=ud.login(name,mobile);
+	if(u!=null){
+		//session create
+		map.put("user", u);
+		return "success";
+	}else{
+		return "fail";
+	}
+
+}
+public String logout(){
+	//session destroy
+if(map!=null){
+	map.invalidate();
+	return "success";
+}else{
+	return "fail";
+}
+}
+public String profile(){
+	System.out.println(map);
+//User u=map.get("user");
+	if(map!=null){
+	
+	return "success";
+}else{
+	return "fail";
+}
+}
+public void setSession(Map<String, Object> arg0) {
+	map=(SessionMap<String, Object>)arg0;
+	
+}
+}

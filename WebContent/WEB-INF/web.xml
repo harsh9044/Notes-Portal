@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>UserRegister</servlet-name>
+    <servlet-class>com.example.controller.UserRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRegister</servlet-name>
+    <url-pattern>/UserRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.example.controller.UserLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CrLogin</servlet-name>
+    <servlet-class>com.example.controller.CrLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrLogin</servlet-name>
+    <url-pattern>/CrLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Down</servlet-name>
+    <servlet-class>com.example.misc.Download</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Down</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
