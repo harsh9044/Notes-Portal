@@ -115,6 +115,33 @@
 							</div>
 							<h3>Harsh</h3>
 							<p>Developer and Cloud Operator</p>
+						
+																	</div>
+				</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="indexf/images/pic03.jpg" alt="Person 1" />
+							</div>
+							<h3>Shrinath</h3>
+							<p>Developer</p>
+						
+																	</div>
+				</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="indexf/images/pic03.jpg" alt="Person 1" />
+							</div>
+							<h3>Muskan</h3>
+							<p>Script and front End Development</p>
+						
+																	</div>
+				</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="indexf/images/pic03.jpg" alt="Person 1" />
+							</div>
+							<h3>Pulak</h3>
+							<p>Backend Supprt</p>
 						</div>
 																	</div>
 				</div>
