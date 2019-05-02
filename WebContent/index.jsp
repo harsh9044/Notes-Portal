@@ -58,7 +58,7 @@
 								<h3>Click Here to Open Academic Calender of Ongoing Semester</h3>
 							</header>
 							<footer>
-								<a href="http://rkgit.edu.in/images/Academic-Calendar-even-sem-2017-18.pdf" class="button special">Click</a>
+								<a href="https://rkgit.edu.in/uploads/others/Academic_Calendar-2018-19_even.pdf">Click</a>
 							</footer>
 						</article>
 					</div>
@@ -80,10 +80,10 @@
 								<img src="indexf/images/pic01.jpg" alt="Pic 01" />
 							</div>
 							<header>
-								<h3>Through this feature you can request the admin any notes of any year by providing the CR code to you.</h3>
+								<h3>Build your CV in corporate style Here.Try our Resume Builder Service</h3>
 							</header>
 							<footer>
-								<a href="comingsoon.html" class="button special">Click Here</a>
+								<a href="rb.html" class="button special">Click Here</a>
 							</footer>
 						</article>
 						<article>
@@ -91,10 +91,10 @@
 								<img src="indexf/images/pic02.jpg" alt="Pic 02" />
 							</div>
 							<header>
-								<h3>Click Here to know some Highly rated Cr codes With Featured Documents <br> For eg-Tutorials </h3>
+								<h3>Click Here to goto our book finder service </h3>
 							</header>
 							<footer>
-								<a href="comingsoon.html" class="button special">Click Here</a>
+								<a href="bookfinder.html" class="button special">Click Here</a>
 							</footer>
 						</article>
 						
@@ -117,28 +117,28 @@
 							<p>Developer and Cloud Operator</p>
 						
 																	</div>
-				</div>
+				
 						<div class="box person">
 							<div class="image round">
-								<img src="indexf/images/pic03.jpg" alt="Person 1" />
+								<img src="indexf/images/pic04.jpg" alt="Person 1" />
 							</div>
-							<h3>Shrinath</h3>
+							<h3>Srinath</h3>
 							<p>Developer</p>
 						
 																	</div>
-				</div>
+				
 						<div class="box person">
 							<div class="image round">
-								<img src="indexf/images/pic03.jpg" alt="Person 1" />
+								<img src="indexf/images/pic05.jpg" alt="Person 1" />
 							</div>
 							<h3>Muskan</h3>
 							<p>Script and front End Development</p>
 						
 																	</div>
-				</div>
+				
 						<div class="box person">
 							<div class="image round">
-								<img src="indexf/images/pic03.jpg" alt="Person 1" />
+								<img src="indexf/images/pic06.jpg" alt="Person 1" />
 							</div>
 							<h3>Pulak</h3>
 							<p>Backend Supprt</p>

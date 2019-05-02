@@ -1,0 +1,79 @@
+<html>
+
+<head>
+<style type='text/css'>
+textarea {
+  vertical-align: middle;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body background="images.jpg">
+
+<form id="f" method="get" action="next.jsp">
+<fieldset>
+<legend align="center"><font face="arial" size="5" color="red">**Personal Info**</face></legend>
+<p><font face="arial" size="4" color="red">
+First Name:&emsp;&nbsp&emsp;&emsp;&emsp;<input type="text" name="fname" placeholder="First_Name" required/>&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    Last Name: &emsp;&emsp;&emsp;  <input type="text" name="lname" placeholder="Last_Name"/><br><br>
+</p>
+<p>
+Parent's Info:&ensp;&emsp;&emsp;&emsp; <input type="text" name="father_name" placeholder="Father's_Name" required/> &emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="mother_name" placeholder="Mother's_Name" required/><br><br>
+</p>
+<p>
+D.O.B: &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&emsp;&emsp;&emsp;&nbsp;        <input type="text" name="dob" placeholder="dd/mm/yyyy" required/> &emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;     Age: &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;       <input type="text" name="age" placeholder="21" required/>
+</p>
+<br>
+
+<p>
+Gender: &emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;    <select name="gender">
+  <option value="select">Select Gender</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+
+</select>
+</p>
+<br>
+
+<p>
+Contact: &emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;<input type="text" name="contact" placeholder="0000000000" required/> &emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp; Email:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="text" name="email" placeholder="abc@abc.com" required/>
+</p>
+<br>
+<p>
+Languages: &emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;&nbsp;<input type="text" name="language" required/> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Nationality:&emsp;&emsp;&emsp;&nbsp;<input type="text" name="nationality" required/>
+</p>
+<br>
+<p>
+<label for="title">Address: </label>
+ &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; <textarea rows="3" cols="30" id="title" name="address"></textarea>
+</p>
+<br>
+<p>
+<label for="title">Carrier Objectives: </label> 
+ &emsp; <textarea rows="3" cols="30" id="title" name="carrier"></textarea>
+&emsp;&emsp;&emsp;&emsp; 
+<label for="title1">My Strengths: </label> 
+&emsp;&ensp; <textarea rows="3" cols="30" id="title1" name="strength"></textarea>
+</p>
+<br>
+<p>
+<pre>
+                  <input type="submit" class="button" value="Next">                                                           <input type="reset" class="button" value="Reset"> 
+</p>
+</fieldset>
+</form>
+</body>
+</html>
+
+
+
