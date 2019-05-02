@@ -10,12 +10,12 @@ public class Dao {
 		Connection con=null;
 		try{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			con=DriverManager.getConnection("jdbc:oracle:thin:mynpdb.crws7ah1tadq.us-west-2.rds.amazonaws.com:1521:xe","root","harshola1");
+			con=DriverManager.getConnection("jdbc:oracle://mynpdb.crws7ah1tadq.us-west-2.rds.amazonaws.com:1521/mynpdb","root","harshola1");
 			
 		}catch (Exception e) {
 			System.out.println(e);
 		}
 		return con;
-	}`
+	}
 	
 }

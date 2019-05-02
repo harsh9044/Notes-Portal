@@ -58,7 +58,7 @@
 								<h3>Click Here to Open Academic Calender of Ongoing Semester</h3>
 							</header>
 							<footer>
-								<a href="https://rkgit.edu.in/uploads/others/Academic_Calendar-2018-19_even.pdf">Click</a>
+								<a href="https://rkgit.edu.in/uploads/others/Academic_Calendar-2018-19_even.pdf" class="button special">Click</a>
 							</footer>
 						</article>
 					</div>
